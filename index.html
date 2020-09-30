@@ -7,41 +7,40 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="body">
-
     <header class="header">
         <div class="header-top">
-                <button class="header__burger icon"><span>Открыть меню</span></button>
+                <button class="header__burger header-btn"><span>Открыть меню</span></button>
                 <div class="header__divider"></div>
-                <a class="header__logo icon" href="#" title="На главную">
+                <a class="header__logo header-btn" href="#" title="На главную">
                     <img src="assets/logo.svg" alt="Логотип">
                 </a>
 
                 <div class="header__emptyspace"></div>
 
-                <button class="header__call icon"></button>
-                <button class="header__chat icon"></button>
-                <button class="header__profile icon"></button>
+                <button class="header__call header-btn"></button>
+                <button class="header__chat header-btn"></button>
+                <button class="header__profile header-btn"></button>
 
                 <div class="header__divider"></div>
 
-                <button class="header__repair icon"><span>Оставить заявку</span></button>
-                <button class="header__checkstatus icon"><span>Статус ремонта</span></button>
+                <button class="header__repair header-btn"><span>Оставить заявку</span></button>
+                <button class="header__checkstatus header-btn"><span>Статус ремонта</span></button>
         </div>
         <h1 class="headline">Услуги и сервисы</h1>
     </header>
     <div class="container">
-    <nav class="nav">
+        <nav>
+            <ul class="nav-main">
+                <li><a class="nav-main__item nav-main__item_active" href="#">Ремонтируемые устройства</a></li>
+                <li><a class="nav-main__item" href="#">Дополнительные услуги</a></li>
+                <li><a class="nav-main__item" href="#">Цены на услуги</a></li>
+                <li><a class="nav-main__item" href="#">Адреса сервисных центров</a></li>
+                <li><a class="nav-main__item" href="#">Специальные цены</a></li>
+                <li><a class="nav-main__item" href="#">Отзывы</a></li>
+            </ul>
+        </nav>
 
-            <a class="nav__item nav__item-active" href="#">Ремонтируемые устройства</a>
-            <a class="nav__item" href="#">Дополнительные услуги</a>
-            <a class="nav__item" href="#">Цены на услуги</a>
-            <a class="nav__item" href="#">Адреса сервисных центров</a>
-            <a class="nav__item" href="#">Специальные цены</a>
-            <a class="nav__item" href="#">Отзывы</a>
-
-    </nav>
-
-        <main class="main">
+        <main class="main-page-content">
             <div class="content-text">
                 <p class="first-paragraph">
                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
