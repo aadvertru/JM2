@@ -3,55 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JM-2</title>
+    <title>JM-2 - side</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="body">
-    <header class="header">
-        <div class="header-top">
-                <button class="header__burger header-btn"><span>Открыть меню</span></button>
-                <div class="header__divider"></div>
-                <a class="header__logo header-btn" href="#" title="На главную">
-                    <img src="assets/logo.svg" alt="Логотип">
-                </a>
-
-                <div class="header__emptyspace"></div>
-
-                <button class="header__call header-btn"></button>
-                <button class="header__chat header-btn"></button>
-                <button class="header__profile header-btn"></button>
-
-                <div class="header__divider"></div>
-
-                <button class="header__repair header-btn"><span>Оставить заявку</span></button>
-                <button class="header__checkstatus header-btn"><span>Статус ремонта</span></button>
+    <aside class="side">
+        <div class="side__header">
+            <button class="header__close header-btn"></button>
+            <a class="side__logo header-btn" href="#" title="На главную">
+                <img src="assets/logo.svg" alt="Логотип">
+            </a>
+            <button class="header__search header-btn"></button>
         </div>
-        <h1 class="headline">Услуги и сервисы</h1>
-    </header>
-    <div class="container">
-        <nav>
-            <ul class="nav-main">
-                <li><a class="nav-main__item nav-main__item_active" href="#">Ремонтируемые устройства</a></li>
-                <li><a class="nav-main__item" href="#">Дополнительные услуги</a></li>
-                <li><a class="nav-main__item" href="#">Цены на услуги</a></li>
-                <li><a class="nav-main__item" href="#">Адреса сервисных центров</a></li>
-                <li><a class="nav-main__item" href="#">Специальные цены</a></li>
-                <li><a class="nav-main__item" href="#">Отзывы</a></li>
+        <div class="side-nav-block">
+            <ul class="side__nav">
+                <li><a href="#" class="side__nav-item side__nav-item_active">Ремонт техники</a></li>
+                <li><a href="#" class="side__nav-item">Услуги и сервисы</a></li>
+                <li><a href="#" class="side__nav-item">Корпоративным клиентам</a></li>
+                <li><a href="#" class="side__nav-item">Продавцам техники</a></li>
+                <li><a href="#" class="side__nav-item">Партнерам</a></li>
+                <li><a href="#" class="side__nav-item">Производителям</a></li>
+                <li><a href="#" class="side__nav-item">Наши сервисные центры</a></li>
+                <li><a href="#" class="side__nav-item">Контакты</a></li>
             </ul>
-        </nav>
 
-        <main class="main-page-content">
-            <div class="content-text">
-                <p class="first-paragraph">
-                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                </p>
-                <p>
-                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-                </p>
-                <button class="readmore">Читать далее</button>
+        </div>
+        <div class="side__footer">
+            <div class="side__footer-buttons">
+                <button class="header__call header-btn extra-margin"></button>
+                <button class="header__chat header-btn extra-margin"></button>
+                <button class="header__profile header-btn extra-margin"></button>
             </div>
-            <img class="content-image" src="assets/image.jpg" alt="Фото офиса CPS" />
-        </main>
-    </div>
+            <a href="mailto:some@some.ru" class="side__footer-email">
+                mail@cps.com
+            </a>
+            <a href="tel:+78008908900" class="side__tel">8 800 890 8900</a>
+            <ul class="side__footer-lang">
+               <li><a class="side__footer-lang-item side__footer-lang-item_active" href="#">RU</a></li>
+               <li><a class="side__footer-lang-item" href="#">EN</a></li>
+               <li><a class="side__footer-lang-item" href="#">CH</a></li>
+            </ul>
+
+        </div>
+    </aside>
 </body>
 </html>
