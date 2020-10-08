@@ -163,7 +163,7 @@ button:hover {
     READMORE
  */
 .readmore {
-    display: inline-block;
+    display: inline;
     position: relative;
     background-color: #F8F8F8;
     color: #1B1C21;
@@ -174,14 +174,24 @@ button:hover {
 .readmore:hover, .readmore:focus {
     text-decoration: underline;
 }
+
 .readmore::before{
     content: '';
     position: absolute;
     left: 20px;
+    top: 18px;
     background: url(../assets/icons/readmore.svg) 0 0 no-repeat;
     width: 8px;
     height: 10px;
 }
+.shown::before{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.showAll {
+    max-height: 100% !important;
+}
+
 /*
     ASIDE
  */
@@ -293,7 +303,6 @@ button:hover {
     .extra-margin {
         margin: 0 12px 15px 0;
     }
-
 /*
     <320
  */
@@ -327,8 +336,9 @@ button:hover {
         margin-left: -15px;
         width: 100vw;
     }
-    p:not(:first-child) {
-        display: none;
+    .content-text {
+        max-height: 100px;
+        overflow: hidden;
     }
 }
 /*
@@ -361,6 +371,10 @@ button:hover {
         border-radius: 6px;
         max-width: 50%;
         object-fit: cover;
+    }
+    .content-text {
+        max-height: 150px;
+        overflow: hidden;
     }
 }
 /*
@@ -397,5 +411,9 @@ button:hover {
         width: 4px;
         height: 40px;
         left: 0px;
+    }
+    .content-text {
+        max-height: 200px;
+        overflow: hidden;
     }
 }
