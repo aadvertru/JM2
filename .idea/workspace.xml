@@ -23,6 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/side.html" beforeDir="false" afterPath="$PROJECT_DIR$/side.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,13 +60,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/fonts/TTLakes" />
       <recent name="$PROJECT_DIR$/assets/icons" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,6 +80,7 @@
       <updated>1601192002448</updated>
       <workItem from="1601192003665" duration="33391000" />
       <workItem from="1602059325408" duration="15913000" />
+      <workItem from="1602750558212" duration="10740000" />
     </task>
     <servers />
   </component>
@@ -98,14 +104,22 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="713" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1601197137484" />
+    <state x="405" y="465" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602771039117">
+      <screen x="55" y="23" width="2505" height="1417" />
+    </state>
+    <state x="405" y="465" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/55.23.2505.1417@55.23.2505.1417" timestamp="1602771039117" />
     <state x="150" y="136" width="1226" height="1173" key="DiffContextDialog" timestamp="1602102337705">
       <screen x="55" y="23" width="2505" height="1417" />
     </state>
     <state x="150" y="136" width="1226" height="1173" key="DiffContextDialog/55.23.2505.1417@55.23.2505.1417" timestamp="1602102337705" />
-    <state x="364" y="462" key="Vcs.Push.Dialog.v2" timestamp="1602102353560">
+    <state x="364" y="462" key="Vcs.Push.Dialog.v2" timestamp="1602159554453">
       <screen x="55" y="23" width="2505" height="1417" />
     </state>
     <state x="363" y="462" key="Vcs.Push.Dialog.v2/54.23.2506.1417@54.23.2506.1417" timestamp="1602102071264" />
-    <state x="364" y="462" key="Vcs.Push.Dialog.v2/55.23.2505.1417@55.23.2505.1417" timestamp="1602102353560" />
+    <state x="364" y="462" key="Vcs.Push.Dialog.v2/55.23.2505.1417@55.23.2505.1417" timestamp="1602159554453" />
+    <state x="332" y="336" key="run.anything.popup" timestamp="1602783208948">
+      <screen x="55" y="23" width="2505" height="1417" />
+    </state>
+    <state x="332" y="336" key="run.anything.popup/55.23.2505.1417@55.23.2505.1417" timestamp="1602783208948" />
   </component>
 </project>
