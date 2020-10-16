@@ -335,6 +335,7 @@ button:hover {
     .slider__wrapper:after {
         content: '';
         flex-basis: 224px;
+        padding: 1em;
     }
     .slider__card {
         flex-basis: 224px;
